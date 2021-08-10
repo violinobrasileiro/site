@@ -1,0 +1,41 @@
+/* Fonts */
+
+@font-face {
+  font-family: 'garamond';
+  src: url('../fonts/CormorantGaramond-Light.eot');
+  src: url('../fonts/CormorantGaramond-Light.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/CormorantGaramond-Light.woff2') format('woff2'),
+       url('../fonts/CormorantGaramond-Light.woff') format('woff'),
+       url('../fonts/CormorantGaramond-Light.ttf') format('truetype'),
+       url('../fonts/CormorantGaramond-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* General */
+
+* {
+
+/* Variables 
+/* Using: var(--cor-bg-principal); */ 
+  --dark: #000;
+  --light: #FFF;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    overflow-x:hidden;
+    margin: 0;
+    padding: 0;
+    background-color: var(--dark);
+}
+
+h1 {
+  font-family: garamond;
+  font-size: 32px;
+  color: var(--light);
+  padding: 64px;
+  letter-spacing: 0;
+  margin: 0;
+}
