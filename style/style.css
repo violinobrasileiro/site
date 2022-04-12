@@ -29,6 +29,11 @@ body {
     padding: 0;
     background-color: var(--forestGreen);
 }
+
+.bg-light{
+ background-color: var(--goldYellow_Washed);
+}
+
 ol, ul {
   list-style: none;
 }
@@ -115,25 +120,11 @@ p {
   color: var(--goldYellow_Washed);
 }
 
-/* Header */
-
-#logo-desktop {
-  display: none;
-}
-
 @media screen and (min-width: 920px) {
 
   #rightContent{
     position: relative;
     left: -106px;
-  }
-
-  #logo-desktop {
-    display: block;
-  }
-
-  #logo-mobile {
-    display: none;
   }
 
   /* Homde content */
