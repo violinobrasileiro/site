@@ -123,29 +123,6 @@ p {
 
 @media screen and (min-width: 920px) {
 
-  /* Header */
-
-  header {
-    padding: 40px 80px 40px 80px;
-    display: inline-flex;
-    justify-content: space-between;
-    width: 100%;
-    position: fixed;
-    background-color: var(--forestGreen);
-  }
-
-  header ul {
-    padding: 0px 20px 0px 20px;
-    display: inline-flex;
-  }
-
-  header li {
-    font-size: 12px;
-    letter-spacing: 4px;
-    text-transform: uppercase;
-    margin-right: 32px;
-  }
-
   #rightContent{
     position: relative;
     left: -106px;
