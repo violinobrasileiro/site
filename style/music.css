@@ -11,11 +11,11 @@
   justify-content: space-between;
   width: 100%;
   padding:32px 0px 32px 0px;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid rgba(25,45,52,0.08 );
 }
 
 .music-list-item:hover {
-  background-color: rgba(25,45,52,0.1 );
+  background-color: rgba(25,45,52,0.02 );
 } 
 
 .music-list-item p {
