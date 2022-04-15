@@ -1,5 +1,10 @@
 
 /* Music List */
+
+.disabled-icon {
+  opacity: 0.3;
+}
+
 @media screen and (min-width: 920px) {
 
 #music-list {
