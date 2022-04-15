@@ -1,0 +1,50 @@
+
+/* Music List */
+@media screen and (min-width: 920px) {
+
+#music-list {
+  padding: 15vw;
+}
+
+.music-list-item {
+  display: inline-flex;
+  justify-content: space-between;
+  width: 100%;
+  padding:32px 0px 32px 0px;
+  border-bottom: 1px solid #ccc;
+}
+
+.music-list-item:hover {
+  background-color: rgba(25,45,52,0.1 );
+} 
+
+.music-list-item p {
+  color: var(--forestGreen);
+  margin-right: 32px;
+}
+
+.ml-left-content{
+  display: inline-flex;
+  margin-right: 32px;
+}
+
+.ml-left-content .ml-composer {
+  padding-left: 32px;
+  font-family: garamond-bold;
+  font-size: 20px;
+  width: 218px;
+}
+
+.ml-left-content p {
+  font-family: garamond;
+  font-size: 20px;
+}
+
+.ml-right-content {
+  display: inline-flex;
+  padding-right: 32px;
+}
+
+#sheet-ic {
+  margin-right: 16px;
+}
