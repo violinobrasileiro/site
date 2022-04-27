@@ -132,17 +132,14 @@ p {
   #homeContentContainer {
     width: 100%;
     padding-top: 106px;
-    display: flex;
-    justify-content: center;
   }
 
   .homeContent {
     width: 100%;
-    height: 100vh - 104px;
     padding: 15vw;
   }
 
-  .homeContent div {
+  #hc-01 div {
     padding-right: 80px;
   }
 
@@ -158,6 +155,21 @@ p {
   #hc-02 {
     background-color: var(--light);
   }
+
+  #hc-02 p {
+    color: var(--forestGreen_Dark);
+    max-width: 400px;
+    padding-bottom: 32px;
+  }
+
+  .hc-headline {
+    font-family: garamond-bold; ;
+  }
+
+  #music-level img{
+    width: 23vw;
+  }
+
 
 
 }
