@@ -163,7 +163,14 @@ p {
   }
 
   .hc-headline {
-    font-family: garamond-bold; ;
+    font-family: garamond-bold;
+    padding-bottom: 16px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .hc-headline-dark {
+    color: var(--goldYellow_Washed);
   }
 
   #music-level {
@@ -201,6 +208,66 @@ p {
   #music-level a:hover {
     opacity: 0.9;
   }
+
+  #hc-03 {
+    background-color: var(--forestGreen);
+  }
+
+  #hc-03 p {
+    color: var(--goldYellow_Washed);
+    max-width: 400px;
+    padding-bottom: 32px;
+  }
+
+  #hc-03 div:first-child {
+    padding-bottom: 64px;
+  }
+
+  #composers {
+    display: inline-flex;
+  }
+
+  #composers img{
+    padding-right: 2px;
+    width: 23vw;
+  }
+
+  #composers div {
+    width: 100%;
+    text-align: center;
+  }
+
+  #composers h4 {
+    padding-top: 24px;
+    font-family: redonda;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  #composers p {
+    font-size: 16px;
+    color: var(--goldYellow_Washed);
+    opacity: 0.8;
+    padding: 16px 0;
+  }
+
+  #composers-link {
+    color: var(--goldYellow);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  #composers-link:hover {
+    color: var(--goldYellow_Washed);
+  }
+
+  #composers a:hover {
+    opacity: 0.7;
+  }
+
+
 
 }
 
