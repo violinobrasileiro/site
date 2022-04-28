@@ -279,6 +279,7 @@ p {
     background-color: var(--forestGreen_Dark);
     display: flex;
     justify-content: space-between;
+    padding: 140px 15vw;
   }
 
   #hc-04 ul {
@@ -295,7 +296,7 @@ p {
 
   #apoio  {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
-    padding-left: 40px;
+    padding-left: 70px;
     margin-right: 15vw;
   }
 
@@ -308,7 +309,17 @@ p {
     width: 40%;
   }
 
+  footer {
+    padding: 32px 15vw;
+    background-color: #070C0E;
+  }
 
-
+  footer p {  
+    font-family: redonda-light;
+    font-size: 12px;
+    color: var(--goldYellow_Washed);
+    opacity: 0.5;
+    letter-spacing: 0.3px;
+  }
 }
 
