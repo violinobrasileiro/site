@@ -166,11 +166,41 @@ p {
     font-family: garamond-bold; ;
   }
 
+  #music-level {
+    display: inline-flex;
+  }
+
   #music-level img{
+    padding-right: 2px;
     width: 23vw;
   }
 
+  #music-level div {
+    width: 100%;
+    text-align: center;
+  }
 
+  #music-level h4 {
+    padding-top: 24px;
+    font-family: redonda;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+
+  #music-level p {
+    font-size: 16px;
+    color: var(--forestGreen_Dark);
+    opacity: 0.8;
+  }
+
+  #music-level a {
+    color: var(--forestGreen_Dark);
+  }
+
+  #music-level a:hover {
+    opacity: 0.9;
+  }
 
 }
 

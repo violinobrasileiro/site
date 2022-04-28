@@ -37,6 +37,7 @@
     width: 100%;
     position: fixed;
     background-color: var(--forestGreen);
+    z-index: 10;
   }
 
   header ul {
