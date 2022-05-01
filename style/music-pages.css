@@ -1,10 +1,14 @@
 
-/* Music Pages */
+/* Music Page Template style */
+
 .mp-content-container{
   background-color: var(--forestGreen);
 }
 
 @media screen and (min-width: 920px) {
+
+/* Video and description */
+
   .mp-content-container{
     padding: 10vw 15vw 0 15vw;
   }
@@ -55,10 +59,14 @@
     color: var(--forestGreen);
   }
 
+
+/* Sheet image */
+
   .mp-sheetimg{
     background-color: var(--goldYellow_Washed);
     text-align: center;
     padding: 80px 15vw 80px 15vw;
+    display: flex;
   }
 
   .mp-sheetimg-container{
@@ -68,7 +76,56 @@
   }
 
   .mp-sheetimg img{
-    width: 80%;
+    width: 75%;
   }
+
+/* More music carousel */
+
+  .mp-moremusic{
+    margin: 80px 15vw;
+    background-color: var(--goldYellow_washed);
+    border-top: 1px solid rgba(25, 45, 52, .1);
+    color: var(--forestGreen);
+  }
+
+  .mp-moremusic-scrollable {
+    width: 100%;
+    display: inline-flex;
+    overflow: auto;
+    padding-bottom: 40px;
+  }
+
+  .mp-moremusic h2{
+    font-family: garamond-bold;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 32px 0;
+  }
+
+  .moremusic-card {
+    margin-right: 32px;
+  }
+
+  .moremusic-videothumb{
+    width: 300px;
+    margin-bottom: 16px;
+  }
+
+  .moremusic-videothumb img{
+    width: 100%;
+  }
+
+  .moremusic-title{
+    color: var(--forestGreen);
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .moremusic-author{
+    color: var(--forestGreen);
+    font-size: 14px;
+  }
+
+
 
 }
