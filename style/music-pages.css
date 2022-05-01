@@ -84,8 +84,13 @@
   .mp-moremusic{
     margin: 80px 15vw;
     background-color: var(--goldYellow_washed);
-    border-top: 1px solid rgba(25, 45, 52, .1);
+    
     color: var(--forestGreen);
+  }
+
+  /* More muscic Spacer */
+  .mp-moremusic-border{
+    border-top: 1px solid rgba(25, 45, 52, .1);
   }
 
   .mp-moremusic-scrollable {
