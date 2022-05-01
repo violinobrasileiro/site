@@ -16,11 +16,16 @@
     width: 100%;
   }
 
-  .mp-txt-content {
+  .mp-txt-headline{
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .mp-txt-content{
    width: 600px;
   }
 
-  .mp-txt-moreinfo {
+  .mp-txt-moreinfo{
     padding-top: 40px;
     font-size: 16px;
     line-height: 24px;
@@ -39,7 +44,7 @@
     width: 123px;
   }
 
-  .button-primary {
+  .button-primary{
     color: var(--goldYellow_Washed);
     font-family: redonda;
   }
