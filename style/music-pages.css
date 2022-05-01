@@ -35,6 +35,11 @@
     line-height: 24px;
   }
 
+  .mp-fonte{
+    font-size: 13px;
+    letter-spacing: 0.2px;
+  }
+
   .mp-cta{
     display: flex;
     
@@ -109,6 +114,10 @@
 
   .moremusic-card {
     margin-right: 32px;
+  }
+
+  .moremusic-card a:hover{
+    opacity: 0.9;
   }
 
   .moremusic-videothumb{
