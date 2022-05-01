@@ -6,11 +6,11 @@
 
 @media screen and (min-width: 920px) {
   .mp-content-container{
-    padding: 15vw;
+    padding: 15vw 15vw 0 15vw;
   }
 
   .mp-music-description{
-    padding: 80px 0;
+    padding: 80px 0 160px 0;
     display: inline-flex;
     justify-content: space-between;
     width: 100%;
@@ -53,6 +53,19 @@
     background-color: var(--goldYellow);
     border: 1px solid var(--goldYellow);
     color: var(--forestGreen);
+  }
+
+  .mp-sheetimg{
+    padding-left: 15vw;
+    padding-right: 15vw;
+    padding-top: 160px;
+    padding-bottom: 160px;
+    background-color: var(--light);
+    text-align: center;
+  }
+
+  .mp-sheetimg img{
+    width: 80%;
   }
 
 }
