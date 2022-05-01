@@ -6,6 +6,48 @@
 
 @media screen and (min-width: 920px) {
   .mp-content-container{
-  padding: 15vw;
-  }  
+    padding: 15vw;
+  }
+
+  .mp-music-description{
+    padding: 80px 0;
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .mp-txt-content {
+   width: 600px;
+  }
+
+  .mp-txt-moreinfo {
+    padding-top: 40px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .mp-cta{
+    display: flex;
+    
+  }
+
+  .button-primary{
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-radius: 40px;
+    justify-content: center;
+    padding: 16px;
+    width: 123px;
+  }
+
+  .button-primary {
+    color: var(--goldYellow_Washed);
+    font-family: redonda;
+  }
+
+  .button-primary:hover{
+    background-color: var(--goldYellow);
+    border: 1px solid var(--goldYellow);
+    color: var(--forestGreen);
+  }
+
 }
