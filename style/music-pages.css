@@ -1,0 +1,11 @@
+
+/* Music Pages */
+.mp-content-container{
+  background-color: var(--forestGreen);
+}
+
+@media screen and (min-width: 920px) {
+  .mp-content-container{
+  padding: 15vw;
+  }  
+}
