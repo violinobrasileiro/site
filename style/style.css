@@ -127,6 +127,37 @@ p {
   color: var(--goldYellow_Washed);
 }
 
+/* Filter Tags */
+
+.ListFilterTag{
+  padding-bottom: 32px;
+}
+
+.filterTag{
+  font-family: redonda;
+  font-size: 12px;
+  padding: 8px 16px 8px 16px;
+  border-radius: 32px;
+  border: 1px solid rgba(25, 45, 52,0.3);
+  color: var(--forestGreen_Dark);
+  background-color: rgb(0, 0, 0, 0);
+  margin-right: 8px;
+}
+
+.filterTag:hover{
+  background-color: var(--goldYellow);
+  border: 1px solid rgba(25, 45, 52, 0);
+}
+
+.TagSelected{
+  color: var(--light);
+  background-color: var(--forestGreen_Dark);
+}
+
+.TagSelected:hover{
+  color: var(--forestGreen_Dark);
+}
+
 @media screen and (min-width: 920px) {
 
   #rightContent{
