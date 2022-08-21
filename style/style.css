@@ -130,12 +130,12 @@ p {
 /* Filter Tags */
 
 .ListFilterTag{
-  padding-bottom: 32px;
+  padding-bottom: 64px;
 }
 
 .filterTag{
   font-family: redonda;
-  font-size: 12px;
+  font-size: 13px;
   padding: 8px 16px 8px 16px;
   border-radius: 32px;
   border: 1px solid rgba(25, 45, 52,0.3);
