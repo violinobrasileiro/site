@@ -158,6 +158,10 @@ p {
   color: var(--forestGreen_Dark);
 }
 
+.show{
+  display: inline-flex !important;
+}
+
 @media screen and (min-width: 920px) {
 
   #rightContent{
