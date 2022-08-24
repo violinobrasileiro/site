@@ -50,7 +50,6 @@
     border-radius: 40px;
     justify-content: center;
     padding: 16px;
-    width: 123px;
   }
 
   .button-primary{
@@ -64,6 +63,17 @@
     color: var(--forestGreen);
   }
 
+/* Video Carousel */
+
+  .mp-video{
+    display: inline-flex;
+    overflow: auto;
+    width: 100%; 
+  }
+
+  .mp-video iframe{
+    margin-right: 16px;
+  }
 
 /* Sheet image */
 
