@@ -53,3 +53,37 @@
 #sheet-ic {
   margin-right: 16px;
 }
+
+ #mc-04 {
+    background-color: var(--forestGreen_Dark);
+    display: flex;
+    justify-content: space-between;
+    padding: 140px 0vw;
+  }
+
+  #mc-04 ul {
+    display: inline-flex;
+  }
+
+  #mc-04 li {
+    padding-right: 40px;
+  }
+
+  #mc-04 a {
+    font-family: redonda-light;
+  }
+
+  #m-apoio  {
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    padding-left: 70px;
+    margin-right: 15vw;
+  }
+
+  #m-apoio p {
+    padding-bottom: 12px;
+    font-size: 16px;
+  }
+
+  #m-apoio img {
+    width: 40%;
+  }
