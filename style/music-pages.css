@@ -75,6 +75,25 @@
     margin-right: 16px;
   }
 
+  .mp-video-yt-carousel{
+    overflow: auto;
+    width: 100%;
+    display: inline-flex;
+  }
+
+  .video-youtube{
+    width: 100%;
+    height: 350px;
+    position: relative;
+    overflow: auto;
+    margin-right: 16px;
+  }
+
+  .video-youtube:last-child{
+    margin-right: 0px;
+  }
+
+
 /* Sheet image */
 
   .mp-sheetimg{
