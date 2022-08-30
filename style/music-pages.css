@@ -81,12 +81,28 @@
     display: inline-flex;
   }
 
+  .mp-video-yt-carousel-2nd{
+    overflow: auto;
+    width: 100%;
+    display: inline-flex;
+    margin-top: 16px;
+  }
+
   .video-youtube{
     width: 100%;
     height: 350px;
     position: relative;
     overflow: auto;
     margin-right: 16px;
+  }
+
+  .video-youtube-full-grid{
+    width: 100%;
+    height: 525px;
+    position: relative;
+    overflow: auto;
+    margin-right: 16px;
+    margin-bottom: 16px;
   }
 
   .video-youtube:last-child{
