@@ -1,0 +1,18 @@
+
+/* Composers Template style */
+
+
+@media screen and (min-width: 920px) {
+
+  #composersContentContainer {
+    width: 100%;
+    padding-top: 106px;
+  }
+
+  .composerContent {
+    width: 100%;
+    padding: 10vw 15vw;
+  }
+
+
+}
