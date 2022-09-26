@@ -2,6 +2,7 @@
 /* Composers Template style */
 
 
+
 @media screen and (min-width: 920px) {
 
   #composersContentContainer {
@@ -10,9 +11,57 @@
   }
 
   .composerContent {
-    width: 100%;
     padding: 10vw 15vw;
+    margin-bottom: 64px;
   }
 
+  h1 {
+    font-family: garamond;
+    font-size: 24px;
+    padding-top: 64px;
+    color: var(--forestGreen_Dark);  
+  }
+
+  p {
+  font-family: garamond;
+  font-size: 16px;
+  line-height: 24px;
+  padding-top: 32px;
+  color: var(--forestGreen_Dark);
+}
+
+#fonte {
+  font-family: garamond;
+  font-size: 12px;
+  padding-top: 4px;
+  color: var(--forestGreen_Dark);
+}
+
+.composerDescription{
+  border-top: 1px solid #ccc;   
+}
+
+.composerItem{
+  display: inline-flex;
+  width: 100%;
+  margin-bottom: 64px;
+}
+
+.composerDescription{
+  width: 100%;
+}
+
+.composerDescription p{
+ max-width: 480px; 
+}
+
+.composerImg{ 
+  width: 261px;
+  margin-right: 32px;
+}
+
+.composerImg img{ 
+  width: 100%;
+}
 
 }
