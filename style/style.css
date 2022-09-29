@@ -188,6 +188,10 @@ p {
   color: var(--goldYellow);
 }
 
+body{
+  overflow: hidden;
+}
+
 
 }
 
