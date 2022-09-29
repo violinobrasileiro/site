@@ -356,5 +356,15 @@ p {
     opacity: 0.5;
     letter-spacing: 0.3px;
   }
+
+  #contato{
+    margin-top: 32px;
+  }
+
+  #email{
+    font-family: redonda;
+    color: var(--goldYellow);
+    font-size: 16px;
+  }
 }
 
