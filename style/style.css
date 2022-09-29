@@ -350,7 +350,7 @@ p {
   }
 
   footer p {  
-    font-family: redonda-light;
+    font-family: redonda;
     font-size: 12px;
     color: var(--goldYellow_Washed);
     opacity: 0.5;
@@ -359,6 +359,12 @@ p {
 
   #contato{
     margin-top: 32px;
+  }
+
+  #contato p{
+    color: var(--goldYellow_Washed);
+    font-size: 20px;
+    padding-top: 6px;
   }
 
   #email{
