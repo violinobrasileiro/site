@@ -414,13 +414,14 @@ body{
   }
 
   #contato{
-    margin-top: 32px;
+    margin-top: 96px;
   }
 
   #contato p{
     color: var(--goldYellow_Washed);
     font-size: 20px;
     padding-top: 4px;
+    line-height: 24px;
   }
 
   #email{
