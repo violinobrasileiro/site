@@ -1,0 +1,18 @@
+
+/* About Template style */
+
+
+
+@media screen and (min-width: 920px) {
+
+  #aboutContentContainer {
+    width: 100%;
+    padding-top: 106px;
+  }
+
+  .aboutContent {
+    padding: 0vw 10vw 15vw;
+    margin-bottom: 64px;
+  }
+
+}
