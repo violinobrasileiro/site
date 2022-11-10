@@ -358,6 +358,10 @@ body{
     color: var(--goldYellow_Washed);
   }
 
+  #composers a{
+    display: inline-flex;
+  }
+
   #composers a:hover {
     opacity: 0.7;
   }
