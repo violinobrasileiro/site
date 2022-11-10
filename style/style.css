@@ -251,6 +251,21 @@ body{
     color: var(--goldYellow_Washed);
   }
 
+  #musicpage-link{
+    margin-bottom: 96px;
+   }
+
+  #musicpage-link a{
+    color: var(--forestGreen_Dark);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+  }
+
+  #musicpage-link a:hover{
+    opacity: 0.9;
+  } 
+
   #music-level {
     display: inline-flex;
   }
@@ -281,6 +296,7 @@ body{
 
   #music-level a {
     color: var(--forestGreen_Dark);
+    display: inline-flex;
   }
 
   #music-level a:hover {
