@@ -385,6 +385,12 @@ body{
     font-family: redonda;
   }
 
+  .divider{
+    background-color: #ccc;
+    width: 100%;
+    height: 1px;
+  }
+
   #apoio  {
     border-left: 1px solid rgba(255, 255, 255, 0.2);
     padding-left: 70px;

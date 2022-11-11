@@ -8,7 +8,7 @@
 @media screen and (min-width: 920px) {
 
 #music-list {
-  padding: 15vw;
+  padding: 10vw 15vw 15vw 15vw;
 }
 
 .music-list-item {

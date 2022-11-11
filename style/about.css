@@ -11,8 +11,81 @@
   }
 
   .aboutContent {
-    padding: 0vw 10vw 15vw;
+    padding: 5vw 15vw 15vw 15vw;
     margin-bottom: 64px;
+    margin-bottom: 0px;
   }
+
+  #composerDescription {
+    display: inline-flex;
+  }
+
+  #composerDescription h1{
+    padding-top: 0;
+  }
+
+  #aboutParagraph {
+    width: 50%;
+    margin-right: 32px;
+  }
+
+  #aboutSpacing{
+    padding-bottom: 120px;
+  }
+
+  .luizFelipe{
+    margin-top: 120px;
+  }
+
+  #portalViolino {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
+
+
+  #portalViolino #portalContent{
+    border: 1px solid #ccc;
+    padding: 24px;
+    width: 70%;
+    height: fit-content;
+    display: inline-flex;
+  }
+
+  #portalViolino span {
+    font-family: garamond-bold;
+  }
+
+  #portalViolino p {
+    padding-top: 0;
+  }
+
+  #portalContent img{
+    width: 64px;
+    height: fit-content;
+    margin-right: 16px;
+  }
+
+  #portalContent a {
+    font-family: garamond;
+    color: var(--forestGreen);
+  } 
+
+  #portalContent a:hover {
+    text-decoration: underline;
+  }
+
+
+  #author{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #authorImage{
+    width: 75%;
+  }
+
+  #authorImage img{
+    width: 100%; }
 
 }
