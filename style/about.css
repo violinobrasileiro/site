@@ -66,12 +66,26 @@
     margin-right: 16px;
   }
 
-  #portalContent a {
+  .aboutLink {
     font-family: garamond;
+    color: var(--forestGreen);
+    text-decoration: underline;
+  } 
+
+  .aboutLink:hover {
+    text-decoration: underline;
+    color: var(--forestGreen_Dark);
+  }
+
+  .pLink {
+    font-family: garamond;
+    background-color: #FEEBCE;
     color: var(--forestGreen);
   } 
 
-  #portalContent a:hover {
+  .pLink:hover {
+    background-color: #FEEBCE;
+    color: var(--forestGreen_Dark);
     text-decoration: underline;
   }
 
@@ -83,6 +97,10 @@
 
   #authorImage{
     width: 75%;
+  }
+
+  #authorImage p{
+    padding-top: 12px;
   }
 
   #authorImage img{
