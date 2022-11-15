@@ -64,6 +64,18 @@ a:hover {
   color: var(--goldYellow);
 }
 
+.linkDark {
+  font-family: garamond;
+  color: var(--forestGreen);
+  text-decoration: underline;
+}
+
+.linkDark:hover {
+  color: var(--forestGreen_Dark);
+  text-decoration: underline;
+}
+
+
 /* Fonts */
 
 @font-face {
