@@ -34,6 +34,10 @@ body {
  background-color: var(--goldYellow_Washed);
 }
 
+.bold{
+  font-family: garamond-bold;
+}
+
 ol, ul {
   list-style: none;
 }
