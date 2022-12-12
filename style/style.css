@@ -401,6 +401,11 @@ body{
     font-family: redonda;
   }
 
+  .composerInterview{
+    padding-top: 64px;
+    border-top: 1px solid #ccc;
+  }
+
   .divider{
     background-color: #ccc;
     width: 100%;
